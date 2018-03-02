@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ppl_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:hint="Enter the Aadhar number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ppl_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter the password"
+        android:inputType="text"
+        android:password="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ppl_name"
+        android:layout_alignBottom="@+id/ppl_name"
+        android:layout_toStartOf="@+id/ppl_name"
+        android:text="Aadhar no  :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/ppl_pw"
+        android:layout_marginLeft="30dp"
+        android:text="Password"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ppl_pw"
+        android:layout_marginTop="50dp"
+        android:text="DONE" />
+
+    <TextView
+        android:id="@+id/imemployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:text="I'm an employee"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+</RelativeLayout>

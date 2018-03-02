@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "792731337235",
+    "firebase_url": "https://govt-frnd.firebaseio.com",
+    "project_id": "govt-frnd",
+    "storage_bucket": "govt-frnd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792731337235:android:3aa3b52e2d99b478",
+        "android_client_info": {
+          "package_name": "com.m.govfriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792731337235-h7qv28km0a27r3c0lguhsctkb6v9g3f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.m.govfriend",
+            "certificate_hash": "107a01c1c9072e2a7eb6617b7d8abd05906adeaa"
+          }
+        },
+        {
+          "client_id": "792731337235-t354oqqm7t5dm4bb16lgua6tucounj55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9cMyEwbLQNLKvbJiLw5MoegqPEEZp1h8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792731337235-t354oqqm7t5dm4bb16lgua6tucounj55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
